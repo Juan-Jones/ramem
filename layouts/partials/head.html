@@ -22,20 +22,13 @@
 {{ with site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 
 {{partial "seo/main.html" .}}
-{{ if $.Scratch.Get "paginator" }}
-  <link rel="canonical" href="{{ .Paginator.URL | absURL }}" />
-  {{ if .Paginator.HasPrev }}
-    <link rel="prev" href="{{ .Paginator.Prev.URL | absURL }}" />
-  {{ end }}
-  {{ if .Paginator.HasNext }}
-    <link rel="next" href="{{ .Paginator.Next.URL | absURL }}" />
-  {{ end }}
-{{ else }}
-  <link rel="canonical" href="{{ .Permalink }}" />
-{{ end }}
 
 {{ partialCached "favicon" . }}
+
 {{ partialCached "manifest" . }}
+
 {{ partial "basic-seo.html" . }}
+
 {{ site.Params.custom_script | safeHTML}}
+
 {{ template "_internal/google_analytics.html" . }}
