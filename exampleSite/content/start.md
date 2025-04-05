@@ -14,7 +14,7 @@ This site is built to guide you step-by-step—whether you're a complete beginne
 
 This platform will help you develop a better understanding about earning money online. Here, you can discover resources and opportunities to make money online. You can also find information on saving money, investing money, and avoiding online scams. In addition, I’ll provide you with a list of online business opportunities so you can start your own business. Ultimately, you can make better decisions and select a profitable market to generate a passive income.
 
-Most webmasters will charge you for the information you ‘re getting here. I’m not here to give you some bogus sales pitch because there’s no dream being sold here. I am here to show you legitimate ways to build wealth! In addition, I will teach you [ways to earn money](blog/ways-to-make-money) through your social media accounts. I will even show you the latest strategies to drive traffic to your platform (website).
+Most webmasters will charge you for the information you ‘re getting here. I’m not here to give you some bogus sales pitch because there’s no dream being sold here. I am here to show you legitimate ways to build wealth! In addition, I will teach you [ways to earn money](/blog/ways-to-make-money) through your social media accounts. I will even show you the latest strategies to drive traffic to your platform (website).
 
 ### Topics
 
