@@ -6,7 +6,6 @@
 <base href="{{ site.BaseURL }}">
 {{ end }}
 
-
 {{ if .IsTranslated }}
 {{ range .AllTranslations }}
 <link rel="alternate" hreflang="{{.Lang}}" href="{{ .RelPermalink | absLangURL }}">
