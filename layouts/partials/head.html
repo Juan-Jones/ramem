@@ -1,4 +1,5 @@
 <meta charset="utf-8">
+<title>{{.Title | default site.Title}}</title>
 
 {{ if or (eq site.BaseURL "/") (eq site.BaseURL "http://localhost:1313/") (eq site.BaseURL "http://examplesite.org/")
 (eq site.BaseURL "https://examplesite.org/") (eq site.BaseURL "http://examplesite.com/") (eq site.BaseURL
@@ -13,6 +14,13 @@
 <link rel="alternate" hreflang="x-default" href="{{ .RelPermalink | absLangURL }}">
 {{ end }}
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-name" content="geeky-hugo" />
+<meta name="description" content="{{ .Site.Params.description }}">
+{{ with site.Params.author }}
+<meta name="author" content="{{ . }}">{{ end }}
+
+{{ partial "seo/main.html" .}}
 {{ if $.Scratch.Get "paginator" }}
 <link rel="canonical" href="{{ .Paginator.URL | absURL }}" />
 {{ if .Paginator.HasPrev }}
@@ -25,21 +33,11 @@
 <link rel="canonical" href="{{ .Permalink }}" />
 {{ end }}
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-name" content="geeky-hugo" />
-{{ if .IsHome }}
-  <meta name="description" content="{{ .Site.Params.description }}">
-{{ end }}
-{{ with site.Params.author }}
-<meta name="author" content="{{ . }}">{{ end }}
-
-{{ partial "basic-seo.html" . }}
-
-{{ partial "seo/main.html" .}}
-
 {{ partialCached "favicon" . }}
 
 {{ partialCached "manifest" . }}
+
+{{ partial "basic-seo.html" . }}
 
 {{ site.Params.custom_script | safeHTML}}
 
