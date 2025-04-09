@@ -15,27 +15,23 @@ alternateName = "Earn Money Online"
 authorURL= "https://earnonlinemoney.org/about"
 
 categories_title = "Blog Categories"
-posts_title = "Featured"
-featured_post_title = "Featured Post"
-recent_post_title = "Recent Post"
-featured_post_button = "Featured"
-recent_post_button = "Recent"
-previous_button = "Previous"
-next_button = "Next"
-related_posts = "Previous Posts"
-showing_posts = "Showing Post From"
+related_posts = "Recent Posts"
 no_categories_found = "No Categories Found"
 no_tags_found = "No Tags Found"
 
 mainSections = ["blog"]
 
 footer_content = "Empowering you with the best ideas to earn online—because financial freedom starts with the right knowledge."
-
+custom_script= ""
 theme_copyright = true
 copyright = "© 2018-2025"
 
 error_404_text = "404 Page Not Found!"
 error_404_button = "Back To Home"
+
+[preloader]
+enable = false
+preloader = ""
 
 [banner]
 enable = true

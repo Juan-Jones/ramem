@@ -32,8 +32,8 @@ dir = ":resourceDir/_gen"
 maxAge = "720h"
 
 [markup]
-  [markup.goldmark.renderer]
-    unsafe = true
+[markup.goldmark.renderer]
+unsafe = true
 
 [mediaTypes]
 [mediaTypes."application/manifest+json"]
@@ -52,3 +52,6 @@ rel = "manifest"
   changeFreq = 'daily'
   filename = 'sitemap.xml'
   priority = 0.5
+
+[params]
+taxonomiesExcludedFromSitemap = ["tags"]

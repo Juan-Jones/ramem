@@ -7,6 +7,19 @@
           <a class="navbar-brand" href="{{ site.BaseURL | relLangURL }}">
             {{ partial "logo.html" }}
           </a>
+
+           <!-- TITLE + SUBTITLE (only on lg+) -->
+           {{ with site.Params.banner }}
+           <div class="header-title-wrapper d-none d-lg-flex flex-column justify-content-center align-items-center mx-auto">
+             {{ with .title_large }}
+             <h1 class="mb-0">{{ . | markdownify }}</h1>
+             {{ end }}
+             {{ with .title_small }}
+             <h2 class="h2 fw-normal mb-0">{{ . | markdownify }}</h2>
+             {{ end }}
+           </div>
+           {{ end }}
+
           <div class="d-flex d-lg-none">
             <ul class="list-unstyled search me-3">
               {{ if site.Params.search }}
