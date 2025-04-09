@@ -4,18 +4,18 @@ url = "/"
 weight = 1
 
 [[main]]
-name = "Start Here"
-url = "start/"
+name = "Blog"
+url = "blog/"
 weight = 2
 
 [[main]]
-name = "Blog"
-url = "blog/"
+name = "About"
+url = "about/"
 weight = 3
 
 [[footer]]
-name = "About"
-url = "about/"
+name = ""
+url = "/"
 weight = 1
 
 [[footer]]
