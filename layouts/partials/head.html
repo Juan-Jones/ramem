@@ -7,6 +7,10 @@
 <base href="{{ site.BaseURL }}">
 {{ end }}
 
+{{ with .OutputFormats.Get "rss" }}
+  {{ printf `<link rel=%q type=%q href=%q title=%q>` .Rel .MediaType.Type .Permalink site.Title | safeHTML }}
+{{ end }}
+
 {{ if .IsTranslated }}
 {{ range .AllTranslations }}
 <link rel="alternate" hreflang="{{.Lang}}" href="{{ .RelPermalink | absLangURL }}">
@@ -16,8 +20,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
 <meta name="theme-name" content="geeky-hugo" />
-<meta name="description" content="{{ .Site.Params.description }}">
-{{ with site.Params.author }}
+<meta name="description" content="{{ .Params.Description | default site.Params.description }}">{{ with site.Params.author }}
 <meta name="author" content="{{ . }}">{{ end }}
 
 {{ partial "seo/main.html" .}}
