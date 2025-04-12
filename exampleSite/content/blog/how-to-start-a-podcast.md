@@ -20,8 +20,6 @@ The spending on digital broadcast advertising has skyrocketed over the past deca
 | 2019 | 514 Million U.S.D.  |
 | 2023 | 1.93 Billion U.S.D. |
 
-Given the information, learning [the business of podcasting](/blog/business-of-podcasting/) is more crucial than ever!
-
 ## How Do Podcasts Make Money?
 
 Before you dive into the technical aspects of streaming audio, it's essential to grasp the fundamentals and methods of monetization. A recorded show is an episodic series of digital audio or video files that users can subscribe to and download to listen to on their devices. Unlike traditional radio, online radio offers listeners the flexibility to consume content on their terms, making them an increasingly popular medium for both creators and consumers.
@@ -108,7 +106,7 @@ Search engine optimization (SEO) is crucial for making your internet show discov
 
 ### 13. Build Your Podcast Brand
 
-Crafting a strong brand as a host of an audio show involves creating a cohesive identity that connects with your audience. Consistency across your recorded show artwork and social media presence is essential. Engage authentically, respond to comments, and foster a loyal following who advocates for your internet show. Dedicate time to [podcaster brand building](/blog/podcaster-brand-building/) – it's the cornerstone of long-term success in the podcasting realm.
+Crafting a strong brand as a host of an audio show involves creating a cohesive identity that connects with your audience. Consistency across your recorded show artwork and social media presence is essential. Engage authentically, respond to comments, and foster a loyal following who advocates for your internet show. Dedicate time to brand building – it's the cornerstone of long-term success in the podcasting realm.
 
 ### 14. Record an Episode
 
@@ -122,7 +120,7 @@ Plan a successful internet show launch by creating engaging promotional material
 
 Implement strategies to grow your digital broadcast audience, such as cross-promotion, social media marketing, and networking within your niche. Consistently deliver high-quality content and engage with your listeners to foster a loyal and enthusiastic community.
 
-### 17. Monetize Your Podcast
+### 17. Monetize Pod Series
 
 While hosting an audio show is undoubtedly a labor of love, there's no shame in exploring monetization opportunities to support your creative endeavors. From sponsorships and affiliate marketing to listener donations and merchandise sales, there are countless ways to monetize your pod series. Just remember to stay authentic to your brand and audience – nobody likes a sellout!
 

@@ -1,15 +1,17 @@
 {{ define "main" }}
 
+<!-- checking blog -->
 {{ if or (eq .Section "post") (eq .Section "posts") (eq .Section "blog") (eq
 .Section "blogs") (eq .Section "news") (eq .Section "categories") (eq .Section
 "tags") }}
 
+<!--=================== section start ===================-->
 <section class="section-sm">
   <div class="container">
-    {{ partial "breadcrumbs.html" . }}
+  {{ partial "breadcrumbs.html" . }}
     <div class="row">
       <div class="col-lg-8 mb-5 mb-lg-0">
-
+        <!-- image path -->
         {{ $imagePath:= .Params.image }} {{ if $imagePath }}
         <div class="position-relative">
           {{ partial "image.html" (dict "Src" $imagePath "Alt" .Title "Class"
@@ -45,8 +47,15 @@
           </li>
         </ul>
         <div class="content drop-cap">{{.Content}}</div>
-      </div>
+        <!-- Disqus comments -->
+        {{ if site.Config.Services.Disqus.Shortname }}
+        <div class="mt-20">
+          {{ template "_internal/disqus.html" . }}
+        </div>
+      {{ end }}
 
+      </div>
+      <!-- sidebar widgets -->
       <aside class="col-lg-4">
         {{ $widget:= site.Params.widgets.sidebar }} {{ partialCached
         "widgets/widget-wrapper" ( dict "Widgets" $widget "Scope" . )}}
@@ -54,7 +63,9 @@
     </div>
   </div>
 </section>
+<!--=================== section end ===================-->
 
+<!--=================== section start ===================-->
 <section class="section-sm pt-0">
   <div class="container">
     <div class="row">
@@ -65,6 +76,7 @@
       </div>
     </div>
 
+    <!-- related post -->
     <div class="row">
       {{ $related := (where site.RegularPages "Section" "in"
       site.Params.mainSections) | intersect (where site.RegularPages ".Title"
@@ -75,7 +87,9 @@
     </div>
   </div>
 </section>
+<!--=================== section end ===================-->
 
+<!-- regular page -->
 {{ else }} {{ partial "page-header.html" . }}
 <section class="section-sm">
   <div class="container">
@@ -87,6 +101,6 @@
   </div>
 </section>
 {{ end }}
-
+<!-- /regular page -->
 
 {{ end }}
