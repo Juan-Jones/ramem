@@ -46,7 +46,7 @@ Referral marketing programs can be categorized into pay-per-click, pay-per-sale,
 
 ### Effective Tactics for Earning Through Partnerships
 
-Referral marketing is a powerful and flexible [way to earn money online]({{< relref "blog/ways-to-make-money.md#best-ways-to-make-money-online" >}}) by promoting products and services. By understanding the basics, exploring different types of programs, and implementing effective strategies, you can build a successful referral marketing business. Below are strategies for effective referral marketing campaigns:
+Referral marketing is a powerful and flexible [way to earn money online](/blog/ways-to-make-money.md#best-ways-to-make-money-online/) by promoting products and services. By understanding the basics, exploring different types of programs, and implementing effective strategies, you can build a successful referral marketing business. Below are strategies for effective referral marketing campaigns:
 
 #### Blog to Encourage Conversation
 
