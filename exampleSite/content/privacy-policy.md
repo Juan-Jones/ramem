@@ -28,13 +28,13 @@ If you contact us directly, we may receive additional information about you such
 
 We use the information we collect in various ways, including to:
 
-* Provide, operate, and maintain our website.
-* Improve, personalize, and expand our website.
-* Understand and analyze how you use our website.
-* Develop new products, services, features, and functionality.
-* Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes.
-* Send you emails.
-* Find and prevent fraud.
+- Provide, operate, and maintain our website.
+- Improve, personalize, and expand our website.
+- Understand and analyze how you use our website.
+- Develop new products, services, features, and functionality.
+- Communicate with you, either directly or through one of our partners, including for customer service, to provide you with updates and other information relating to the website, and for marketing and promotional purposes.
+- Send you emails.
+- Find and prevent fraud.
 
 ### Cookies and Web Beacons
 
@@ -56,15 +56,15 @@ Note that Earnonlinemoney has no access to or control over these cookies that ar
 
 Earnonlinemoney's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.
 
-* Third party vendors, including Google, use cookies to serve ads based on a user's prior visits to your website or other websites.
-* Google's use of advertising cookies enables it and its partners to serve ads to your users based on their visit to your sites and/or other sites on the Internet.
-* Users may opt out of personalized advertising by visiting 'www.google.com/settings/ad' . Alternatively, you can direct users to opt out of a third-party vendor's use of cookies for personalized advertising by visiting 'www.aboutads.info/choices/'.
+- Third party vendors, including Google, use cookies to serve ads based on a user's prior visits to your website or other websites.
+- Google's use of advertising cookies enables it and its partners to serve ads to your users based on their visit to your sites and/or other sites on the Internet.
+- Users may opt out of personalized advertising by visiting 'www.google.com/settings/ad' . Alternatively, you can direct users to opt out of a third-party vendor's use of cookies for personalized advertising by visiting 'www.aboutads.info/choices/'.
 
 If you have not 'support.google.com/dfp_premium/answer/94152', the cookies of other 'support.google.com/dfp_premium/answer/94149' may also be used to serve ads on your site, which should also be disclosed in your privacy policy in the following manner:
 
-* Notify your site visitors of the third-party vendors and ad networks serving ads on your site.
-* Provide links to the appropriate vendor and ad network websites.
-* Inform your users that they may visit those websites to opt out of the use of cookies for personalized advertising (if the vendor or ad network offers this capability). Alternatively, you can direct users to opt out of some third-party vendors’ uses of cookies for personalized advertising by visiting 'www.aboutads.info/choices/'.
+- Notify your site visitors of the third-party vendors and ad networks serving ads on your site.
+- Provide links to the appropriate vendor and ad network websites.
+- Inform your users that they may visit those websites to opt out of the use of cookies for personalized advertising (if the vendor or ad network offers this capability). Alternatively, you can direct users to opt out of some third-party vendors’ uses of cookies for personalized advertising by visiting 'www.aboutads.info/choices/'.
 
 Because publisher sites and laws across countries vary, we're unable to suggest specific privacy policy language. However, you may wish to review resources such as the 'www.networkadvertising.org/' for guidance on drafting a privacy policy. For additional details regarding cookie consent notices, please refer to cookiechoices.org/" rel="nofollow">cookiechoices</a>.
 
